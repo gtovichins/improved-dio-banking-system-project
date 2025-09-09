@@ -60,8 +60,8 @@ Example: Main Street, 123 - Downtown, Springfield/SP
   - Regular expressions for input validation
 
 ## 📂 Project Structure
-  - advanced-python-banking-system 📁 Root folder
-  - advanced_banking_system.py 📝 Main Python script
+  - improved-dio-banking-system-project 📁 Root folder
+  - improved-dio-banking-system-project.py 📝 Main Python script
   - README.md 📄 Documentation in English
   - README.pt.md 📄 Documentation in Portuguese
 
