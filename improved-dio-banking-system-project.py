@@ -1,19 +1,13 @@
 import re
 from datetime import datetime, date
 
-# --------------------------
-# Lista de usuários
-# --------------------------
+
 usuarios = []
 
-# --------------------------
-# Lista de contas
-# --------------------------
+
 contas = []
 
-# --------------------------
-# Funções de validação
-# --------------------------
+
 def validar_data(data_str):
     try:
         datetime.strptime(data_str, "%d/%m/%Y")
@@ -40,9 +34,7 @@ def validar_endereco(endereco_str):
         return False
     return True
 
-# --------------------------
-# Funções de usuário
-# --------------------------
+
 def cadastrar_usuario():
     print("\n=== CADASTRO DE USUÁRIO ===")
     while True:
@@ -133,9 +125,7 @@ def deletar_usuario():
     else:
         print("Operação cancelada.\n")
 
-# --------------------------
-# Funções de conta
-# --------------------------
+
 def criar_conta():
     if not usuarios:
         print("Não há usuários cadastrados.\n")
@@ -228,9 +218,7 @@ def acessar_conta():
             menu_conta(conta)
             return
 
-# --------------------------
-# Reset diário do limite
-# --------------------------
+
 def verificar_limite_diario(conta):
     hoje = date.today()
     if conta['data_ultima_transacao'] != hoje:
@@ -238,9 +226,7 @@ def verificar_limite_diario(conta):
         conta['numero_saques'] = 0
         conta['data_ultima_transacao'] = hoje
 
-# --------------------------
-# Operações na conta
-# --------------------------
+
 def depositar(saldo, valor, extrato, numero_transacoes, limite_transacoes, /):
     if numero_transacoes >= limite_transacoes:
         print("Limite diário de 10 transações atingido. Operação não permitida.\n")
@@ -297,9 +283,7 @@ def consultar_extrato(saldo, *, extrato):
     print(f"\nSaldo: R${saldo:.2f}")
     print("==========================================\n")
 
-# --------------------------
-# Menu da conta
-# --------------------------
+
 def menu_conta(conta):
     menu = """
 [d] Depositar
@@ -353,9 +337,7 @@ def menu_conta(conta):
         else:
             print("Opção inválida. Tente novamente.")
 
-# --------------------------
-# Menu principal
-# --------------------------
+
 def menu_principal():
     while True:
         print("---- BANCO ----")
