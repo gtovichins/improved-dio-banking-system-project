@@ -2,7 +2,7 @@
 # 🏦 Advanced Python Banking System
 
 
-This project was developed as part of the Python Bootcamp at DIO (Suzano - Python Developer). It is an evolution of a simple banking system and simulates a more advanced banking system with multiple users, accounts, and realistic business rules.
+This project was developed as part of the Python Bootcamp at DIO ([Suzano - Python Developer](https://www.dio.me/bootcamp/suzano-python-developer)). It is an evolution of a simple banking system and simulates a more advanced banking system with multiple users, accounts, and realistic business rules.
 
 ## ✨ Features
 ### 👥 Multi-user Registration
