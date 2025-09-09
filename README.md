@@ -14,7 +14,7 @@ This project was developed as part of the Python Bootcamp at DIO (Suzano - Pytho
   - CPF: Brazilian ID, format XXX.XXX.XXX-XX, unique per user
 
   - Address: format Street, Number - Neighborhood, City/StateAbbreviation
-Example: Main Street, 123 - Downtown, Springfield/SP
+  -- Example: Main Street, 123 - Downtown, Springfield/SP
 
 ### 🏛️ Account Management
 
