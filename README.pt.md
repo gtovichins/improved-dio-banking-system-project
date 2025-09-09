@@ -1,7 +1,7 @@
 *[Leia em Inglês](./README.md)*
 # 🏦 Sistema Bancário Avançado em Python
 
-Este projeto foi desenvolvido como parte do Bootcamp de Python na DIO ([Suzano - Python Developer](https://www.dio.me/bootcamp/suzano-python-developer)). É uma evolução do sistema bancário simples e simula um sistema bancário mais avançado, com múltiplos usuários, contas e regras de negócio realistas.
+Este projeto foi desenvolvido como parte do Bootcamp de Python na DIO ([Suzano - Python Developer](https://www.dio.me/bootcamp/suzano-python-developer)). É uma evolução do [sistema bancário simples](https://github.com/gtovichins/basic-python-banking-system) e simula um sistema bancário mais avançado, com múltiplos usuários, contas e regras de negócio realistas.
 
 ## ✨ Funcionalidades
   - 👥 Cadastro de Usuários
