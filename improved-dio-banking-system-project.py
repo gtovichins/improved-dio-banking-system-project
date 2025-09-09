@@ -364,5 +364,4 @@ def menu_principal():
         else:
             print("Opção inválida. Tente novamente.\n")
 
-
 menu_principal()
