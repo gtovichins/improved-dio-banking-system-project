@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como parte do Bootcamp de Python na DIO (Suzano - 
   - CPF: documento brasileiro, formato XXX.XXX.XXX-XX, único por usuário
 
   - Endereço: formato Rua, Número - Bairro, Cidade/UF
-Exemplo: Rua Principal, 123 - Centro, Springfield/SP
+  -- Exemplo: Rua Principal, 123 - Centro, Springfield/SP
 
 ## 🏛️ Gerenciamento de Contas
 
