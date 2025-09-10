@@ -260,9 +260,9 @@ def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques, numero
         print(f"Saque excede o limite de R${limite:.2f}.")
         return saldo, extrato, numero_saques, numero_transacoes
 
-    saldo -= valor
-    numero_saques += 1
-    numero_transacoes += 1
+    saldo = saldo - valor
+    numero_saques = numero_saques + 1
+    numero_transacoes = numero_transacoes + 1
     agora = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     extrato.append(f"{agora} | Saque    | R${valor:.2f}")
     restante = limite_transacoes - numero_transacoes
