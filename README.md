@@ -60,12 +60,6 @@ This project was developed as part of the Python Bootcamp at DIO ([Suzano - Pyth
 
   - Regular expressions for input validation
 
-##  Project Structure
-  - improved-dio-banking-system-project 📁 Root folder
-  - improved-dio-banking-system-project.py 📝 Main Python script
-  - README.md 📄 Documentation in English
-  - README.pt.md 📄 Documentation in Portuguese
-
 ##  Notes
 
 This project demonstrates:
