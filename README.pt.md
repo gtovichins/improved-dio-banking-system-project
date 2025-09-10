@@ -59,12 +59,6 @@ Este projeto foi desenvolvido como parte do Bootcamp de Python na DIO ([Suzano -
 
   - Expressões regulares para validação de entradas
 
-##  Estrutura do Projeto
-  - improved-dio-banking-system-project 📁 Pasta raiz
-  - improved-dio-banking-system-project.py 📝 Script principal em Python
-  - README.md 📄 Documentação em inglês
-  - README.pt.md 📄 Documentação em português
-
 ##  Observações
 Este projeto demonstra:
 
