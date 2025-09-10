@@ -1,11 +1,11 @@
 *[Leia em Português](./README.pt.md)*
-# 🏦 Advanced Python Banking System
+# Advanced Python Banking System
 
 
 This project was developed as part of the Python Bootcamp at DIO ([Suzano - Python Developer](https://www.dio.me/bootcamp/suzano-python-developer)). It is an evolution of a [simple banking system](https://github.com/gtovichins/basic-python-banking-system) and simulates a more advanced banking system with multiple users, accounts, and realistic business rules.
 
-## ✨ Features
-### 👥 Multi-user Registration
+##  Features
+###  Multi-user Registration
 
   - Full Name: must not contain numbers
 
@@ -16,7 +16,7 @@ This project was developed as part of the Python Bootcamp at DIO ([Suzano - Pyth
   - Address: format Street, Number - Neighborhood, City/StateAbbreviation
   -- Example: Main Street, 123 - Downtown, Springfield/SP
 
-### 🏛️ Account Management
+###  Account Management
 
   - Users can have multiple accounts
 
@@ -24,7 +24,7 @@ This project was developed as part of the Python Bootcamp at DIO ([Suzano - Pyth
 
   - Accounts are linked to a single user
 
-### 💰 Banking Operations
+###  Banking Operations
 
   - Deposit: validated input, updates balance, records transaction with date & time
 
@@ -32,23 +32,23 @@ This project was developed as part of the Python Bootcamp at DIO ([Suzano - Pyth
 
   - Transaction Limits: each account has a daily limit of 10 transactions with notifications
 
-### 📄 Account Statement
+###  Account Statement
 
   - Shows each transaction with date & time
 
   - Displays current balance, number of withdrawals, and remaining transactions
 
-### ❌ User Deletion
+###  User Deletion
 
   - Users can be deleted with confirmation
 
   - Deleting a user removes all associated accounts
 
-### 🔄 Daily Reset
+###  Daily Reset
 
   - Withdrawal counts and transaction counts reset automatically each day
 
-## 🛠️ Technologies
+##  Technologies
 
   - Python 3.x
 
@@ -60,13 +60,13 @@ This project was developed as part of the Python Bootcamp at DIO ([Suzano - Pyth
 
   - Regular expressions for input validation
 
-## 📂 Project Structure
+##  Project Structure
   - improved-dio-banking-system-project 📁 Root folder
   - improved-dio-banking-system-project.py 📝 Main Python script
   - README.md 📄 Documentation in English
   - README.pt.md 📄 Documentation in Portuguese
 
-## 📝 Notes
+##  Notes
 
 This project demonstrates:
 
